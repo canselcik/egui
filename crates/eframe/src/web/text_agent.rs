@@ -29,6 +29,7 @@ impl TextAgent {
         style.set_property("width", "1px")?;
         style.set_property("height", "1px")?;
         style.set_property("position", "absolute")?;
+        style.set_property("display", "none")?;
         style.set_property("top", "0")?;
         style.set_property("left", "0")?;
         document.body().unwrap().append_child(&input)?;
